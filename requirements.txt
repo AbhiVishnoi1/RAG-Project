@@ -1,0 +1,287 @@
+# ============================================================
+# CORE LANGCHAIN
+# ============================================================
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+langchain-classic
+langgraph
+langgraph-checkpoint
+langgraph-prebuilt
+langgraph-sdk
+langsmith
+
+# ============================================================
+# LANGCHAIN - LLM PROVIDERS
+# ============================================================
+
+# OpenAI
+langchain-openai
+openai
+
+# Google Gemini
+langchain-google-genai
+google-genai
+
+# Mistral AI
+langchain-mistralai
+mistralai
+
+# Groq
+langchain-groq
+groq
+
+# Hugging Face
+langchain-huggingface
+huggingface-hub
+transformers
+tokenizers
+
+# Anthropic / Claude
+langchain-anthropic
+anthropic
+
+# xAI / Grok
+langchain-xai
+
+# Cohere
+langchain-cohere
+cohere
+
+# DeepSeek
+langchain-deepseek
+
+# OpenRouter
+langchain-openrouter
+
+# Ollama - optional if you later use local models
+langchain-ollama
+
+# ============================================================
+# EMBEDDINGS
+# ============================================================
+
+# OpenAI embeddings
+# Provided through langchain-openai
+
+# Gemini embeddings
+# Provided through langchain-google-genai
+
+# Hugging Face embeddings
+# Provided through langchain-huggingface
+
+# Mistral embeddings
+# Provided through langchain-mistralai
+
+sentence-transformers
+
+# ============================================================
+# VECTOR DATABASES
+# ============================================================
+
+# Chroma
+chromadb
+langchain-chroma
+
+# FAISS
+faiss-cpu
+
+# Pinecone
+pinecone
+langchain-pinecone
+
+# Qdrant
+qdrant-client
+langchain-qdrant
+
+# Weaviate
+weaviate-client
+langchain-weaviate
+
+# Milvus
+pymilvus
+langchain-milvus
+
+# ============================================================
+# RAG / DOCUMENT PROCESSING
+# ============================================================
+
+# PDF
+pymupdf
+pypdf
+pdfplumber
+
+# Word
+python-docx
+
+# Excel
+openpyxl
+
+# PowerPoint
+python-pptx
+
+# HTML / Web
+beautifulsoup4
+lxml
+
+# Markdown
+markdown
+
+# Unstructured documents
+unstructured
+
+# ============================================================
+# DATA SCIENCE / MACHINE LEARNING
+# ============================================================
+
+numpy
+pandas
+scipy
+scikit-learn
+
+# ============================================================
+# PYTORCH / DEEP LEARNING
+# ============================================================
+
+torch
+torchvision
+torchaudio
+
+# ============================================================
+# HUGGING FACE / DATASETS
+# ============================================================
+
+datasets
+accelerate
+safetensors
+
+# ============================================================
+# FASTAPI / BACKEND
+# ============================================================
+
+fastapi
+uvicorn[standard]
+starlette
+python-multipart
+
+# ============================================================
+# PYDANTIC
+# ============================================================
+
+pydantic
+pydantic-settings
+
+# ============================================================
+# DATABASE / SQL
+# ============================================================
+
+# SQL ORM
+sqlalchemy
+
+# SQLModel
+sqlmodel
+
+# SQLite
+# SQLite is already included with Python
+
+# PostgreSQL
+psycopg[binary]
+asyncpg
+
+# MySQL
+pymysql
+mysql-connector-python
+
+# Microsoft SQL Server
+pyodbc
+
+# Database migrations
+alembic
+
+# ============================================================
+# NOSQL DATABASES
+# ============================================================
+
+# MongoDB
+pymongo
+motor
+
+# Redis
+redis
+
+# ============================================================
+# HTTP / API
+# ============================================================
+
+requests
+httpx
+aiohttp
+
+# ============================================================
+# ENVIRONMENT VARIABLES / CONFIGURATION
+# ============================================================
+
+python-dotenv
+pyyaml
+toml
+
+# ============================================================
+# STREAMLIT UI
+# ============================================================
+
+streamlit
+streamlit-extras
+
+# ============================================================
+# JUPYTER / NOTEBOOKS
+# ============================================================
+
+jupyter
+jupyterlab
+ipykernel
+ipywidgets
+
+# ============================================================
+# WEB / SEARCH / AGENTS
+# ============================================================
+
+tavily-python
+
+# ============================================================
+# UTILITIES
+# ============================================================
+
+tqdm
+tenacity
+orjson
+requests-toolbelt
+typing-extensions
+
+# ============================================================
+# AUTHENTICATION / SECURITY
+# ============================================================
+
+passlib[bcrypt]
+python-jose[cryptography]
+email-validator
+
+# ============================================================
+# CACHING / PERFORMANCE
+# ============================================================
+
+cachetools
+
+# ============================================================
+# TESTING
+# ============================================================
+
+pytest
+pytest-asyncio
+
+# ============================================================
+# CODE QUALITY
+# ============================================================
+
+black
+ruff
